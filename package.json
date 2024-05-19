@@ -1,0 +1,16 @@
+{
+  "name": "moviehub",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "start:server": "node server -w server",
+    "dev:server": "nodemon server -w server",
+    "dev:client": "vite -w client",
+    "build:client": "vite build -w client",
+    "preview:client": "vite preview -w client"
+  }
+}
